@@ -76,11 +76,7 @@ default['kismet']['config']['channeldwell'] = 10
 # OUI file, expected format 00:11:22<tab>manufname
 # IEEE OUI file used to look up manufacturer info.  We default to the
 # wireshark one since most people have that.
-default['kismet']['config']['ouifile'] = [
-  '/etc/manuf',
-  '/usr/share/wireshark/wireshark/manuf',
-  '/usr/share/wireshark/manuf',
-]
+default['kismet']['config']['ouifile'] = []
 
 # GPS configuration
 if node['kismet']['enable_gpsd']
