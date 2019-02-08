@@ -103,7 +103,7 @@ default['kismet']['config']['maxbacklog']        = 5000
 default['kismet']['config']['pcapdumpformat']    = 'ppi'
 default['kismet']['config']['defaultlogtitle']   = 'Kismet'
 
-default['kismet']['config']['alerts'] = [
+default['kismet']['config']['alert'] = [
   'ADHOCCONFLICT,5/min,1/sec',
   'AIRJACKSSID,5/min,1/sec',
   'APSPOOF,10/min,1/sec',
