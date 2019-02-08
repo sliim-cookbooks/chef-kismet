@@ -137,28 +137,6 @@ default['kismet']['config']['apspoof'] = [
   'Foo2:ssid="Foobar",validmacs="00:11:22:33:44:55,aa:bb:cc:dd:ee:ff"',
 ]
 
-default['kismet']['config']['enablespeech'] = 'false'
-default['kismet']['config']['speechbin']    = 'flite'
-default['kismet']['config']['speechtype']   = 'raw'
-default['kismet']['config']['enablesound']  = 'false'
-default['kismet']['config']['soundbin']     = 'play'
-default['kismet']['config']['sounds'] = [
-  'newnet,true',
-  'newcryptnet,true',
-  'packet,true',
-  'gpslock,true',
-  'gpslost,true',
-  'alert,true',
-]
-
-default['kismet']['config']['speechencoding'] = 'nato'
-default['kismet']['config']['speech'] = [
-  'new,"New network detected s.s.i.d. %1 channel %2"',
-  'alert,"Alert %1"',
-  'gpslost,"G.P.S. signal lost"',
-  'gpslock,"G.P.S. signal O.K."',
-]
-
 default['kismet']['config']['alertbacklog']     = 50
 default['kismet']['config']['allowkeytransmit'] = 'true'
 default['kismet']['config']['writeinterval']    = 300
