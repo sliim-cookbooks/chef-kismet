@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+  - 2.5.7
+services:
+  - docker
+env:
+  - KITCHEN_YAML=kitchen.docker.yml
+script:
+  - bundle exec kitchen test --destroy=always
